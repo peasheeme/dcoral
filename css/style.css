@@ -1128,6 +1128,10 @@ padding: 0;
 				color: white;
 			 }
 
+			 ul.information-list {
+    	margin-left: -35px;
+			 }
+
 	#Contacto .btn-Enviar {
     padding: 10px 0;
     margin:  0;
