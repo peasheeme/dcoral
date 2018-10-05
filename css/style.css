@@ -1,0 +1,1136 @@
+body {
+	overflow-x: hidden;
+}
+	*{
+		box-sizing: border-box;
+		margin: 0;
+	}
+
+	a{
+		text-decoration: none;
+		color: #4F5858;
+
+	}
+	div.owl-nav {
+		color: white;
+	}
+	.row{
+		margin-right: 0;
+		padding-right: 0;
+	}
+
+	html {
+	font-family: 'Raleway', sans-serif;
+	}
+
+	img{
+	   max-width: 100%;
+	   height: auto;
+	}
+
+	h1, h2, h3, h4, h5, h6, p, label{
+		font-family: 'Raleway', sans-serif;
+		color: #666666;
+	}
+
+	input, textarea{
+		font-family: 'Raleway', sans-serif;
+	}
+
+	li{
+		list-style: none;
+	}
+
+	h5 {
+		margin-left: 31px;
+	}
+
+	.secciones {
+	   margin-top: 70px;
+	   margin-bottom: 70px;
+	}
+
+	.encabezados {
+	   font-family: 'Raleway', sans-serif;
+	   font-weight: 300;
+	   margin: 50px 0;
+	   font-size: 36px;
+	}
+	 .contenedores {
+	   margin-bottom: 70px;
+	}
+	.catalogo {
+		font-family: 'Raleway', sans-serif;
+	   font-weight: 300;
+	   padding: 50px 0 50px 0;
+	   font-size: 36px;
+	   background-color: #EBEBEB;
+	}
+span.margen {
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+	.button1 {
+	   background: #4F5858;
+	   border: 1px solid #4F5858;
+	   color: white;
+	   padding: 15px 0;
+	   font-family: 'Raleway', sans-serif;
+	   font-weight: 400;
+	   width: 190px;
+	   height: 52px;
+	   margin: auto;
+	   margin-bottom:50px;
+	   margin-top: 35px;
+	   cursor: pointer;
+	}
+
+	.button2 {
+	   margin-bottom: 115px;
+	   background: transparent !important;
+	   border: 2px solid white;
+	   color: white;
+	   padding: 15px 38px;
+	   font-family: 'Raleway', sans-serif;
+	   font-weight: 400;
+	   width: 190px;
+	   height: 52px;
+	}
+
+	.button3 {
+	   margin: 10px 0 10px 0;
+	   background: transparent !important;
+	   border: 1px solid #C86957;
+	   color: #C86957;
+	   padding: 15px 38px;
+	   font-family: 'Raleway', sans-serif;
+	   font-weight: 400;
+	   width: 170px;
+	   height: 52px;
+	}
+
+	 .button8 {
+	   margin-top: 30px;
+	   margin: 0 10px;
+	   background: #C86957;
+	   border: 1px solid #C86957;
+	   color: white;
+	   font-family: 'Raleway', sans-serif;
+	   font-weight: 600;
+	   width: 44px;
+	   height: 40px;
+	   /* font-size: 24px; */
+	}
+	input.cantidad {
+	   width: 80px;
+	   height: 40px;
+	   border: 1px solid #C86957;
+	   padding-left: 15px;
+	}
+	h2.subt {
+		font-family: 'Raleway', sans-serif;
+		margin-left: 0px;
+		color: white;
+	}
+
+   	/*Intro*/
+		.rotate {
+			text-shadow: 0 0 0 !important;
+		}
+	/*menú responsive*/
+	#intro header{
+		width: 100%;
+		padding: 50px 0;
+	}
+
+	#intro {
+	background: rgba(34, 34, 34, .6) !important;
+	z-index: auto !important;
+	padding: 230px 0 160px 0;
+	text-align: center;
+}
+
+	#btn-menu{
+		display: none;
+	}
+
+	#intro label{
+		display: none;
+		width: 80px;
+		height: 50px;
+		padding: 10px;
+		font-size: 20px;
+	}
+
+	.active{
+		background: rgba(79, 88, 88, 0.35);
+	}
+
+	#intro label:hover{
+		cursor: pointer;
+	}
+
+	#intro nav ul{
+		display: flex;
+		justify-content: center;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	#intro nav ul li{
+		text-align: center;
+	}
+
+	#intro nav ul li a{
+		display: block;
+		padding: 15px 50px;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	@media screen and (max-width:768px){
+		#intro label{
+			display: block;
+		}
+
+		#intro .menu-responsive{
+			position: absolute;
+			background: #000;
+			width: 70%;
+			margin-left: -75%;
+			transition: all 0.5s;
+			z-index: 100;
+		}
+
+		#intro .menu-responsive{
+			border-top: 1px solid #fff;
+		}
+
+		#intro nav ul{
+			flex-direction: column;
+		}
+
+		#btn-menu:checked ~ .menu-responsive{
+			margin: 0;
+		}
+
+		#intro nav ul li{
+			text-align: left;
+		}
+
+		#intro header{
+			background: #000;
+			color: #fff;
+		}
+
+	}
+
+	#intro {
+		background: rgba(34, 34, 34, .6) !important;
+		padding: 0 0 50px 0;
+		text-align: center;
+		width: 100%;
+	}
+
+
+
+
+	#intro img[src="images/icons/logopeque.png"]{
+		display: block;
+		margin: auto;
+		margin-bottom: 70px;
+		margin-top: 70px;
+	}
+
+	.contentIntro {
+	   padding: 20px 1px;
+	}
+	/*.contentSect1 {
+	   margin-top: 100px;
+	}*/
+
+	.contentSect1 h1 {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 300;
+		font-size: 60px;
+		letter-spacing: 0.01em;
+	}
+
+	.contentSect1 h5 {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		color: #fff;
+	}
+
+	.articulo {
+	   margin-bottom: 30px;
+	}
+
+	.articulo2 {
+	   margin: 10px 0;
+	}
+
+	/*sección bienvenidos*/
+	#bienvenidos .textoImagenes .textoColorDerecha{
+		background-color: #4F5858;
+	}
+	#bienvenidos .textoImagenes .textoColorIzquierda{
+		background-color: #606060;
+	}
+	#bienvenidos .textoImagenes p{
+		color: #fff;
+	}
+	#bienvenidos .textoImagenes h3{
+		text-align: center;
+		margin-top: 70px;
+		margin-bottom: 20px;
+		color: #fff;
+	}
+	#bienvenidos {
+		text-align: center;
+		margin-top: 70px;
+
+		color: #666666;
+	}
+		#bienvenidos p.cabecera {
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 70px;
+			padding: 5px 60px;
+		}
+	p.bienvenidos {
+		margin-top: 10px;
+		padding: 0 50px;
+
+	}
+	#bienvenidos .espacio{
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	/*sección proceso*/
+	#Proceso{
+		background-color: #F5F6FA;
+		padding-bottom: 70px;
+	}
+	#Proceso h1{
+		text-align: center;
+		padding-top: 70px;
+		padding-bottom: 70px;
+		color: #666666;
+	}
+
+	#Proceso h3{
+		text-align: center;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		color: #666666;
+	}
+
+	#Proceso img{
+		display: block;
+		margin: auto;
+	}
+
+	/*slider Nuestros Diseños*/
+	#Designs h1{
+		text-align: center;
+		padding-top: 70px;
+		padding-bottom: 70px;
+		color: #4F5858;
+	}
+
+	#Designs a.btn-VerMas{
+		display: block;
+		background-color: #1EA8E0;
+		color: #fff;
+		text-align: center;
+		text-decoration: none;
+		width: 180px;
+		height: 50px;
+		padding: 10px;
+		margin-top: 70px;
+		margin-bottom: 70px;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+#Designs a.btn-VerMas:hover{
+		background-color: #4f5858;
+		color: #fff;
+	}
+
+	/*footer*/
+	section#footer{
+		padding: 70px 0;
+		background-color: #393A3F;
+	}
+
+	section#footer img{
+		margin-bottom: 10px;
+	}
+
+	section#footer h6{
+		color: #4F5858;
+	}
+
+	section#footer h6 a{
+		color: #fff;
+		text-decoration: none;
+		font-weight: 400;
+	}
+
+	section#footer .conocenos1 p{
+		color: #606364;
+	}
+
+	section#footer .conocenos3 a{
+		color: #fff;
+		text-decoration: none;
+	}
+
+	section#footer .conocenos3 .row{
+		margin-bottom:10px;
+	}
+
+	/*sección contacto*/
+	.contactoBackground{
+		background-color: #F5F6FA;
+	}
+
+	#Contacto h1{
+		text-align: center;
+		margin-top: 70px;
+		margin-bottom: 70px;
+		color: #666666;
+	}
+
+	#Contacto .informationColumns{
+		display: inline-flex;
+	}
+
+	#Contacto ul li{
+		margin-bottom: 10px;
+	}
+
+	#Contacto .informationColumns span{
+		margin-right: 10px;
+	}
+
+	#Contacto .redes-sociales{
+		margin: 0 10px;
+	}
+
+	#Contacto form{
+		margin-bottom: 70px;
+	}
+
+	#Contacto input{
+		padding: 10px 10px;
+		margin: 10px 0;
+	}
+
+	#Contacto .formulario-textarea{
+		height: 200px;
+		padding: 10px;
+		margin-bottom: 30px;
+		resize: vertical;
+	}
+
+	#Contacto input, #Contacto textarea.formulario-textarea{
+		width: 100%;
+		box-sizing: border-box;
+		box-shadow: none;
+		outline: none;
+		background: transparent;
+		border: 2px solid #666666;
+	}
+
+	#Contacto textarea.formulario-textarea{
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+
+	#Contacto .btn-Enviar{
+		padding: 10px 0;
+		margin: 10px 0;
+		width: 30%;
+		cursor: pointer;
+	}
+
+	#Contacto .btn-Enviar:hover{
+		background: #4B5456;
+		color: #fff;
+		transition: .5s;
+	}
+
+	#Contacto form div{
+		position: relative;
+	}
+
+	#Contacto form div .formulario-label{
+		position: absolute;
+		top: 25px;
+		left: 10px;
+		transition: .5s;
+		color: #393A3F;
+		pointer-events: none;
+	}
+
+
+	#Contacto input:focus ~ .formulario-label,
+	#Contacto textarea.formulario-textarea:focus ~ .formulario-label,
+	#Contacto input:valid ~ .formulario-label,
+	#Contacto textarea.formulario-textarea:valid ~ .formulario-label{
+		top: -10px;
+		left: 0;
+		font-size: 12px;
+	}
+
+	#Contacto input:focus,
+	#Contacto textarea.formulario-textarea:focus,
+	#Contacto input:valid,
+	#Contacto textarea.formulario-textarea:valid{
+		border-bottom: 2px solid #000;
+	}
+
+	/*
+
+	#Contacto form input, textarea{
+		display: flex;
+		padding: 10px;
+		border:1px solid #000;
+	}
+
+	#Contacto form input[type="text"], input[type="email"], textarea{
+		width: 100%;
+		background-color: #F5F6FA;
+		margin-bottom: 20px;
+	}
+
+	#Contacto form textarea{
+		resize: vertical;
+		min-height: 150px;
+		max-height: 450px;
+	}
+
+	#Contacto form .btn-Enviar{
+		width: 30%;
+		background-color: #F5F6FA;
+		text-align: center;
+		cursor: pointer;
+	}
+
+	#Contacto .contactoRow{
+		margin-top: 20px;
+	}
+
+	#Contacto i{
+		font-size: 25px;
+	}*/
+
+	/*mapa*/
+	#Mapa div.mapa iframe{
+		width: 100%;
+		height: 400px;
+	}
+
+	/*Sección Nosotros*/
+	#Nosotros{
+		margin-bottom: 70px;
+	}
+
+	#Nosotros h1{
+		text-align: center;
+		margin-top: 70px;
+		margin-bottom: 15px;
+		color: #666666;
+	}
+
+	#Nosotros p{
+		text-align: center;
+		margin-bottom: 70px;
+
+	}
+
+	/*Sección Empresa-MVO*/
+	#Empresa-MVO{
+		background-color: #F5F6FA;
+		padding: 70px;
+	}
+
+	#Empresa-MVO img{
+		display: block;
+		margin: auto;
+
+		margin-bottom: 15px;
+	}
+
+	#Empresa-MVO div.texto-MVO{
+		text-align: justify;
+	}
+
+	#Empresa-MVO a.btn-VerMas{
+		display: block;
+		background-color: #4B5456;
+		width: 160px;
+		height: 50px;
+
+		color: #fff;
+		text-align: center;
+		padding: 10px;
+		text-decoration: none;
+
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+
+		margin-top: 70px;
+		margin-bottom: 70px;
+	}
+
+	/*Sección Nuestras Ventajas*/
+	#Ventajas{
+		margin-top: 70px;
+		margin-bottom: 70px;
+	}
+
+	#Ventajas .fa-check{
+		color: #1BA9DF;
+	}
+
+	/*Sección Productos*/
+	.background-Productos{
+		background-color: #F5F6FA;
+	}
+
+	#Productos{
+		margin-top: 70px;
+		margin-bottom: 70px;
+	}
+	#Productos p {
+		margin-bottom: 70px;
+	}
+	#Productos h1{
+		text-align: center;
+
+		color: #666666;
+	}
+
+	#Productos div.cartaAbajo{
+		background-color: #fff;
+		padding: 25px;
+		height:500px;
+	}
+
+	#Productos div.cartaAbajo div.texto-Carta{
+		height: 150px;
+	}
+
+	#Productos div.cartaAbajo a.btn-VerMas{
+		display: block;
+		background-color: #4B5456;
+		width: 160px;
+		height: 50px;
+
+		color: #fff;
+		text-align: center;
+		padding: 10px;
+		text-decoration: none;
+
+		position: absolute;
+		top: 80%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	#Productos div.carta-content{
+		margin-bottom: 50px;
+
+	}
+
+	#Productos div.cartaAbajo h3{
+		text-align: center;
+		color: #666666;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	/*Sección Galería*/
+	.Galeria-Background{
+		background-color: #F5F6FA;
+	}
+.galery-buttons {
+		margin-bottom: 30px;
+}
+	#Galeria{
+		margin-top: 70px;
+		margin-bottom: 70px;
+	}
+
+	#Galeria ul.barra-filtr{
+		display: flex;
+		padding-left: 0;
+	}
+
+	.button7 {
+		background: white;
+		border-style: none;
+		color: #666666;
+		padding: 15px 0;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		width: 150px;
+		height: 52px;
+		margin: 10px 5px;
+
+	 }
+	 .button7.active {
+ 		background: #666666;
+ 		border-style: none;
+ 		color: white;
+ 	 }
+	 .button7:hover {
+ 		background: #666666;
+ 		border-style: none;
+ 		color: white;
+ 	 }
+	 .seccions {
+		 margin-bottom: 50px;
+	 }
+
+	ul.barra-filtr li a{
+		text-align: center;
+		padding: 20px;
+		cursor: pointer;
+	}
+	.btn-gallery {
+		background-color: white;
+		border-style: none;
+		padding: 10px 15px ;
+		width: 150px;
+		color :#666666;
+		font-size: 18px;
+		font-weight: 400;
+	}
+	.btn-gallery:hover {
+		background-color: #666666;
+		border-style: none;
+		padding: 10px 15px ;
+		width: 150px;
+		color :white;
+	}
+
+	#Galeria .filtr-item{
+		padding-bottom: 30px;
+	}
+	.active {
+		background-color: #666666;
+		border-style: none;
+
+		color :white;
+	}
+	.btn-dgallery:focus {
+outline: none;
+}
+	/*prueba
+
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+	.blobs {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		filter: url(#goo);
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+	.box {
+		height: 100px;
+		width: 550px;
+		background: #ececec;
+		box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.075);
+		clip-path: url(#cut);
+		border-radius: 5px;
+		z-index: -1;
+	}
+
+	svg {
+		height: 0;
+		width: 0;
+	}
+
+	.circle-styles {
+		position: absolute;
+		width: 90px;
+		height: 90px;
+		transform: translate(0, -48px);
+		background: hsl(337, 70%, 58%);
+		clip-path: circle(42px at center);
+	}
+
+	.circle-styles:nth-child(1) span {
+		width: 35px;
+		height: 5px;
+		background: rgb(255, 255, 255);
+		position: absolute;
+		border-radius: 15px;
+	}
+	.circle-styles:nth-child(1) span:nth-child(2) {
+		transform: rotate(90deg);
+	}
+	.circle-styles:nth-child(1) {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.first {
+		transition: transform 0.5s 100ms ease-out;
+		background: hsl(307, 70%, 58%);
+	}
+
+	.second {
+		transition: transform 0.5s 300ms ease-out;
+		background: hsl(277, 70%, 58%);
+	}
+	.last {
+		transition: transform 0.5s 500ms ease-out;
+		background: hsl(247, 70%, 58%);
+	}
+	.first.show {
+		transform: translate(-100px, -120px);
+	}
+	.second.show {
+		transform: translate(0px, -150px);
+	}
+	.last.show {
+		transform: translate(100px, -120px);
+	}
+	.cross {
+		transform-origin: center center;
+		transition: all 0.5s ease-in-out;
+	}
+	.bg {
+		transition: all 0.4s ease-in-out;
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		border-radius: 100%;
+		transform: scale(0);
+		background: hsla(0, 0%, 100%, 0.459);
+	}
+	.bg.show {
+		transform: scale(0.7);
+		opacity: 0;
+	}
+
+	.cross.show {
+		transform: rotate(45deg);
+	}
+
+	.main-circle {
+		z-index: 2;
+	}
+
+	.icons {
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.icons svg {
+		width: 45px;
+		height: 45px;
+		margin: 30px;
+		fill: hsl(0, 0%, 52%);
+		transition: fill 0.5s ease-out;
+	}
+	.icons svg.colorchange {
+		fill: hsla(0, 0%, 67%, 0.534);
+	}
+	.circles svg {
+		transition: fill 0.3s ease-out;
+		fill: hsl(0, 0%, 92%);
+	}
+	.circles:hover svg {
+		fill: hsl(0, 0%, 100%);
+	}
+	.main-icons {
+		fill: rgb(255, 255, 255);
+		width: 50px;
+		height: 50px;
+	}
+
+	.center {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.move-left {
+		transform: translate(-20px, 0px);
+	}
+	.move-right {
+		transform: translate(20px, 0px);
+	}*/
+
+	#footer .informationColumns{
+		display: inline-flex;
+	}
+
+	#footer ul li{
+		margin-bottom: 10px;
+	}
+
+	#footer .informationColumns a{
+		margin-left: 10px;
+	}
+
+
+
+	@media screen and (max-width:1064px){
+		h1{
+			font-size: 36px;
+		}
+		h3 {
+			font-size: 20px;
+		}
+
+		p{
+			font-size: 14px;
+			margin-top: 10px;
+			padding: 0 10px;
+		}
+		p.bienvenidos {
+		margin-top: 10px;
+		padding: 0 15px;
+		}
+
+		#bienvenidos .textoImagenes h3{
+			text-align: center;
+			margin-top: 30px;
+			margin-bottom: 20px;
+			color: #fff;
+			font-size: 18px;
+		}
+
+		#Nosotros h1{
+			text-align: center;
+			margin-top: 70px;
+			margin-bottom: 15px;
+			color: #666666;
+			font-size: 34px;
+		}
+
+		#Nosotros p{
+			text-align: center;
+			font-size: 14px;
+			mar
+
+		}
+
+		#Productos div.cartaAbajo a.btn-VerMas {
+    display: block;
+    background-color: #4B5456;
+    width: 160px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#Productos div.cartaAbajo {
+    background-color: #fff;
+    padding: 25px;
+    height: 300px;
+}
+#Galeria .filtr-item {
+
+		padding: 5px;
+}
+
+	}
+
+	@media screen and (max-width:992px){
+		.btn-gallery {
+		    background-color: white;
+		    border-style: none;
+		    padding: 10px 15px;
+		    width: 120px; */
+		    color: #666666;
+		    font-size: 18px;
+		    font-weight: 400;
+		}
+		.active{
+		    background-color: #666666;
+		    width: 120px;
+		    color: white;
+
+		}
+		.galery-buttons {
+    margin-bottom: 30px;
+		margin-left: -30px;
+}
+	}
+
+	@media screen and (max-width:880px){
+		p{
+			font-size: 12px;
+			margin-top: 10px;
+			padding: 0 10px;
+		}
+		#intro nav ul li a {
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+
+}
+p.bienvenidos {
+margin-top: 10px;
+padding: 0;
+}
+
+#Galeria .filtr-item {
+		padding: 5px;
+}
+
+	}
+
+	@media screen and (max-width:792px){
+		p{
+			font-size: 12px;
+			margin-top: 5px;
+
+		}
+
+
+		h3 {
+			font-size: 18px;
+		}
+
+		#Productos div.cartaAbajo {
+    background-color: #fff;
+    padding: 25px;
+    height: 293px;
+}
+	}
+
+	@media screen and (max-width:769px){
+		#intro header {
+		    width: 100%;
+		    padding:  0;
+		    margin-top: -20px;
+		}
+		#intro nav ul li a {
+		display: block;
+    padding: 15px 0 15px 60px;
+    text-decoration: none;
+    color: #fff;
+	}
+	h3 {
+		padding-top: 15px;
+		font-size: 20px;
+	}
+	p {
+		font-size: 14px;
+	}
+	#bienvenidos .textoImagenes p {
+    color: #fff;
+    padding: 20px;
+		font-size: 14px;
+
+}
+#bienvenidos p.cabecera {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+.BienvenidoMovil{
+	margin-top: 15px;
+
+}
+
+.active{
+		background-color: #666666;
+		width: 100%;
+		color: white;
+	}
+
+		.button7 {
+			background: white;
+			border-style: none;
+			color: #666666;
+			padding: 15px 0;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 400;
+			width: 150px;
+			height: 52px;
+			margin: 10px 5px;
+
+		 }
+		 .button7.active {
+			background: #666666;
+			border-style: none;
+			color: white;
+				height: 52px;
+		 }
+		 .button7:hover {
+			background: #666666;
+			border-style: none;
+			color: white;
+		 }
+
+
+
+
+	}
+
+		@media screen and (max-width:769px){
+			.button7 {
+				background: white;
+				border-style: none;
+				color: #666666;
+				padding: 15px 0;
+				font-family: 'Raleway', sans-serif;
+				font-weight: 400;
+				width: 100px;
+				height: 52px;
+				margin: 10px 5px;
+
+			 }
+			 .button7.active {
+				background: #666666;
+				border-style: none;
+				color: white;
+					height: 52px;
+			 }
+			 .button7:hover {
+				background: #666666;
+				border-style: none;
+				color: white;
+			 }
+
+	#Contacto .btn-Enviar {
+    padding: 10px 0;
+    margin:  0;
+    width: 50%;
+    cursor: pointer;
+}
+		}
